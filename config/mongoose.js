@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://127.0.0.1:27017/HabbitTrackerDB');
+mongoose.connect('mongodb+srv://rygbu2407:D5zloqnKXtHCoxwX@cluster0.yxm897h.mongodb.net/');
 
 const db = mongoose.connection;
 
